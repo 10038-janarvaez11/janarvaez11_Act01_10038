@@ -1,0 +1,79 @@
+<!doctype html>
+ <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Narvaez Jilson</title>
+
+        <link rel="stylesheet" href="css/estilos1.css">
+
+    </head>
+    <body>
+	
+
+<fieldset>
+  <legend>(*) Dirección de Envío:</legend>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="calleP">Calle Principal:</label>
+            <input type="text" placeholder="Ej: Calle G">
+        </div><br>
+
+        <div class="form-group">
+            <label for="calleS">Transversal:</label>
+            <input type="text" placeholder="Calle F">
+        </div>
+
+    <p>Entrega:</p>
+
+        <label>
+            <input type="checkbox" id="entrega_propietario" name="entrega" onclick="toggleEnviarButton()">
+            Entrega al propietario
+        </label><br>
+
+        <label>
+            <input type="checkbox" id="entrega_tercero" name="entrega" onclick="toggleEnviarButton()">
+        Entrega a un tercero
+            </label><br>
+
+        <div class="form-group"><br>
+                <label>Provincia:</label>
+                <select name="provincia" id="provincia">
+                    <option value="1">Pichincha</option>
+                    <option value="1">Pichincha</option>
+                    <option value="2">Guayas</option>
+                    <option value="3">Azuay</option>
+                    <option value="4">Loja</option>
+                    <option value="5">Manabi</option>
+                    <option value="6">El Oro</option>
+                    <option value="7">Esmeraldas</option>
+                    <option value="8">Cotopaxi</option>
+                    <option value="9">Imbabura</option>
+                    <option value="10">Bolivar</option>
+                    <option value="11">Chimborazo</option>
+                    <option value="12">Tungurahua</option>
+                    <option value="13">Pastaza</option>
+                    <option value="14">Orellana</option>
+                    <option value="15">Napo</option>
+                    <option value="16">Morona Santiago</option>
+                    <option value="17">Zamora Chinchipe</option>
+                    <option value="18">Sucumbios</option>
+                    <option value="19">Galapagos</option>
+                    <option value="20">Carchi</option>
+                    <option value="21">Cañar</option>
+                    <option value="22">Santa Elena</option>
+                    <option value="23">Santo Domingo de los Tsachilas</option>
+                    <option value="24">Sto. Domingo de los Colorados</option>
+                </select>
+        </div>
+    </div><br>
+
+    <input id="enviar" name="send" type="submit" value="Enviar" disabled>
+</fieldset>
+
+
+        <script src="../js/validacionFormRegistro.js"></script>
+        
+    </body>
+</html>
+

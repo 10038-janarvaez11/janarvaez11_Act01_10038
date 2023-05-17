@@ -1,0 +1,82 @@
+<!doctype html>
+ <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Narvaez Jilson</title>
+
+        <link rel="stylesheet" href="css/estilos1.css">
+
+    </head>
+    <body>
+	
+
+<fieldset>
+  <legend>(*) Datos Básicos:</legend>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="calleP">Nombre del Producto:</label>
+      <input type="text" id="calleP" placeholder="Ej: Pedro Picapiedra">
+    </div><br>
+
+    <div class="form-group">
+      <label for="calleS">Descripción:</label><br>
+      <textarea id="calleS" placeholder="................."></textarea>
+    </div><br>
+
+    <div class="form-group">
+      <label for="foto">Fotografía:</label><br>
+      <input type="file" id="foto" accept="image/*">
+    </div><br>
+
+    <label>
+      <input id="info" type="checkbox"> Añadir información confidencial
+    </label>
+  </div>
+</fieldset>
+<br>
+<fieldset>
+  <legend>(*) Datos Económicos:</legend>
+
+  <div class="form-group">
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" name="precio" placeholder="$$">
+  </div>
+
+  <div class="form-group"><br>
+    <label>Impuestos:</label>
+    <select name="impuesto" id="impuesto">
+      <option value="1">12%</option>
+      <option value="2">14%</option>
+      <option value="3">16%</option>
+      <option value="4">18%</option>
+    </select>
+  </div>
+
+  <p>Promoción:</p>
+  <label>
+    <input type="radio" name="tipo" value="prom1" id="prom1" />
+    Ninguno
+  </label><br>
+
+  <label>
+    <input type="radio" name="tipo" value="prom2" id="prom2" />
+    Transporte Gratuito
+  </label><br>
+
+  <label>
+    <input type="radio" name="tipo" value="prom3" id="prom3" />
+    Descuento 5%
+  </label><br>
+</fieldset>
+
+<br>
+
+<input id="enviar" name="send" type="submit" value="Guardar Cambios">
+<input id="borrar" type="reset" value="Borrar datos introducidos">
+
+
+        <script src="../js/validacionFormProducto.js"></script>
+        
+    </body>
+</html>

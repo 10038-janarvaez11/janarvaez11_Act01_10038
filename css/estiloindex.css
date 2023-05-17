@@ -1,0 +1,102 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.color1 {
+    background-color: lightskyblue;
+}
+
+.color2 {
+    background-color: yellow;
+}
+
+.color3 {
+    background-color: lightgray ;
+}
+
+.color4 {
+    background-color: #5bb551;
+}
+
+.color5 {
+    background-color: #008000;
+    margin-left: 90 px;
+}
+
+.color6 {
+    background-color: green;
+    margin-left: 42 px;
+}
+
+.color10{
+   background-color: white;
+}
+
+
+
+
+#image{
+      width: 40%;
+      height: 40%;
+      padding-top: 20px;
+      padding: 20px;
+}
+
+#video{
+      padding-top: 5px;
+      padding: 5px;
+}
+
+#caja-imagenes{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      flex-wrap: wrap; <!---Ajusta el texto al div->
+}
+
+#caja-botones{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      gap:20px;
+      flex-direction: column;
+}
+
+#caja-texto{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+}
+
+.space {
+ padding: 2px;
+}
+.space-row{
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+.custom-row {
+  display: flex;
+  align-items: stretch;
+}
+
+
+/* Estilo para FormContacto */
+
+#contacto {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

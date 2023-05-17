@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Narvaez Jilson</title>
+
+        <link rel="stylesheet" href="css/estilos1.css">
+        <link rel="stylesheet" href="../css/estiloFormContacto.css"> <!--Estilo del Formulario--> 
+
+    </head>
+    <body>  
+
+
+<form id="myForm">
+  <h2 style="text-align: center;">Contacto</h2>
+  <div>
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" name="correo" pattern="[a-zA-Z0-9._%+-]+@espe.edu.ec" placeholder="mail@espe.edu.ec" required>
+  </div>
+
+  <div>
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+  </div>
+
+  <div>
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono" pattern="[0-9]{10}" maxlength="10" placeholder="09....." required>
+  </div>
+
+  <button type="submit" id="enviarBtn" onclick="enviarFormulario()" disabled class="disabled-alt">Enviar</button>
+</form>
+
+
+
+        <script src="../js/validacionFormContacto.js"></script>
+        
+    </body>
+</html>
